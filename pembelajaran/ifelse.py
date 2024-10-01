@@ -6,3 +6,5 @@ elif 10 >= nilai > 7:
     print("lulus")
 else:
     print("masukkan nilai hanya 1-10")
+    
+#selesai
