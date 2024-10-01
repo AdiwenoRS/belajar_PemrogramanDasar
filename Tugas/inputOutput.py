@@ -1,3 +1,4 @@
+# Tugas milik Artha
 print(f"{5*"+="} Data Diri Mahasiswa {5*"+="}")
 nim = input("Masukkan NIM: ")
 nama = input("Masukkan Nama: ") 
