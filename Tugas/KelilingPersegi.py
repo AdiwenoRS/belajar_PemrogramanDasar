@@ -6,4 +6,3 @@ keliling = panjang * lebar * tinggi
 
 print("Keliling permukaan persegi tersebut adalah:", keliling, "CM")
 
-
