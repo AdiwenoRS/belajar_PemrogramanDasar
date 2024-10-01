@@ -1,0 +1,5 @@
+print("="*40)
+print("Nama     : Adiweno Rashad Sahita")
+print("Kelas    : 15.1D.07")
+print("Jurusan  : Informatika")
+print("="*40)
