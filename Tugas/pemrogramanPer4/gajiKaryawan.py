@@ -1,3 +1,5 @@
+import sys
+
 print("Perhitungan gaji pokok karyawan PT. Dingin Damai")
 namaKaryawan = input("Nama karyawan: ")
 golonganJabatan = int(input("Masukkan Golongan Jabatan [1-3]: "))
@@ -12,18 +14,18 @@ elif golonganJabatan == 2:
 elif golonganJabatan == 3:
     tunjanganJabatan = 15 * gajiPokok / 100
 else:
-    tunjanganJabatan = "Input Golongan jabatan salah"
-
+    print("Input Golongan jabatan salah")
+    quit()
 if pendidikan == "SMA":
-    tunjanganPendidikan = 2.5 * gajiPokok / 100
-elif pendidikan == "D1":
+    
     tunjanganPendidikan = 5 * gajiPokok / 100
 elif pendidikan == "D3":
     tunjanganPendidikan = 20 * gajiPokok / 100
 elif pendidikan == "S1":
     tunjanganPendidikan = 30 * gajiPokok / 100
 else:
-    tunjanganPendidikan = "Input pendidikan salah"
+    print("Input pendidikan salah")
+    exit()
 
 if jmlhJamKerja >= 8:
     honorLembur = (jmlhJamKerja - 8) * 3500
